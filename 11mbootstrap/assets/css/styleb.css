@@ -1,0 +1,80 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.imglogo{
+  width: 300px;
+}
+.banner_inicio img {
+  width: 100%;
+}
+
+.btn_nosotros_a{
+  text-decoration: none;
+  color: #ba1010;
+  font-weight: bold;
+}
+.slogan{
+  padding:25px;
+}
+.texto_f h4{
+  font-size: 1rem;
+}
+.texto_f h2{
+  font-size: 1.5rem;
+}
+
+.texto_f p{
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.menu{
+  color: #fff;
+}
+
+
+.caja_mm{
+  padding: 25px;
+}
+.texto_mm{
+  color:#ba1010;
+}
+
+.bi-search, .bi-facebook, .bi-linkedin, .bi-youtube {
+  font-size: 1.5rem;
+}
+
+.parrafo, .slogan_t {
+  text-align: center;
+}
+
+.footer_redes i{
+  font-size: 3rem;
+  padding: 1.5rem;
+}
+
+.productos, .nosotros{
+  background-color:#797575;
+  text-align: center;
+}
+
+.nosotros_titulo{
+  text-align: center;
+}
+.nosotrost{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.nosotros__con p{
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+
+
+

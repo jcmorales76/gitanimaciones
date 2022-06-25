@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body class="contenedor">
+    <header class="header">
+        <div class="header__logo">
+            <a href="../index.html"><img class="header__logo--img" data-aos="zoom-in" src="../assets/img/logo-fepcmac-blanco.webp" alt="Logo"></a>    
+        </div>
+        <nav class="header__navBar" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <ul>
+                <li><a href="../pages/servicios.html">Servicios</a> </li>
+                <li><a href="../pages/nosotros.html">Nosotros</a> </li>
+                <li><a href="../pages/contacto.html">Contacto</a> </li>
+                <li><a href="../pages/noticias.html">Noticias</a> </li>
+            </ul>
+        </nav>
+        <!--<div class="boton-noticia"> 
+            <a href="./pages/noticias.html">NOTICIAS</a>
+        </div> -->
+        <div class="header__iRedes" data-aos="fade-up"
+        data-aos-duration="3000">
+            <img src="../assets/img/lupa.png" alt="busqueda">
+            <img src="../assets/img/facebook (1).png" alt="facebook">
+            <img src="../assets/img/linkedin (1).png" alt="linkedin">
+            <img src="../assets/img/youtube (1).png" alt="youtube">
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <!-- MAIN -->
+    <main class="main">
+        <!-- MAIN banner -->
+        <div class="seccion__banner" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <img class="seccion__banner--img" src="../assets/img/Banner_contacto.png" alt="banner">
+        </div>
+        <!-- MAIN Titulo -->
+        <section class="nosotros">
+            <div class="nosotros__titulo">
+                <h1>Contacto</h1>
+            </div>
+            <!-- MAIN contenido -->
+            <div class="contacto">
+                <div class="contacto__contenido">
+                    <img class="contacto__contenido--img" data-aos="zoom-in" src="../assets/img/imagen_contacto.png" alt="imgnosotros">
+                </div>
+                <div class="form">
+                    <form class="contacto__contenido--form">
+                        <div class="form-grupo">
+                            <label for="nombre"></label>
+                            <input type="text" placeholder="Nombre" name="nombre" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="email"></label>
+                            <input type="email" placeholder="Email" name="email" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="tele"></label>
+                            <input class="form__grupo--input" type="number" placeholder="Telefono" name="tele" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="comentario"></label>
+                            <textarea class="form__grupo-textarea" name="comentario" id="comentario" cols="30" rows="3"
+                                placeholder="Agregar un comentario" required>Mensaje</textarea>
+                        </div class="form-grupo">
+                        <button class="boton" type="button" value="Enviar">Enviar</button>
+                </div>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER-->
+    <footer class="footer">
+
+        <div class="footer__consultas">
+            <h3>CONSULTAS E INFORMES</h3>
+            <h4>Contacta con nosotros</h4>
+            <p class="footer__slogan">Juntos impulsaremos el desarrollo de las Cajas Municipales de Ahorro y Crédito
+            </p>
+            <div class="footer__btn">
+                <p>CONTACTANOS -></p>
+            </div>
+        </div>
+        <div class="footer__redes">
+            <img src="../assets/img/lupa.png" alt="busqueda">
+            <img src="../assets/img/facebook (1).png" alt="facebook">
+            <img src="../assets/img/linkedin (1).png" alt="linkedin">
+            <img src="../assets/img/youtube (1).png" alt="youtube">
+        </div>
+
+    </footer>
+    <!-- END FOOTER -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
